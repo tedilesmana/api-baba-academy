@@ -13,7 +13,14 @@ var CourseSchema = mongoose.Schema({
         type: Number,
         required: true
     },
+    diskon: {
+        type: Number,
+        required: true
+    },
     image: {
+        type: String
+    },
+    url_image: {
         type: String
     },
 }, {
